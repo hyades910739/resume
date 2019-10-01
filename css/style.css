@@ -708,3 +708,8 @@ li.active::before {
     font-size: 16px;
     padding-right: 10px;
 }
+
+
+#print {
+    font-size: 18px;
+}

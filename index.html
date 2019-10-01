@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Resumex - Professional HTML CSS Resume Website Template</title>
+    <title>Resume</title>
 
     <!-- favicon -->
     <link href="favicon.png" rel=icon>
@@ -80,12 +80,17 @@
              <nav class="col-md-6" class="navbar" id="myScrollspy">
                     <ul class="nav">
                       <li><a href="#section1">About Me</a></li>
-                      <li><a href="#section2">Interest</a></li>
+                      <li><a href="#section2">Expertise</a></li>
                       <li><a href="#section3">Skills</a></li>
                       <li><a href="#section4">Projects</a></li>
                     </ul>
             </nav>
         </div>
+        <a role="button" href="https://drive.google.com/file/d/1VB-uoorMw2ZxsZfPNlNVJRzG_cEiW0M2/view" 
+           class="btn btn-block btn-warning" id="print" target="_blank">
+            列印紙本履歷請移駕
+        </a>
+
 
 
     </header>
@@ -111,8 +116,9 @@
         <div class="row">
             <div class="col-md-12">   
             <div class="about-text">                
-                    妮好啊，我是賴東昇。從大學擔任搖滾樂社副社長、在live house表演，
-                    到大三時雙主修數位內容學程，認識了數位內容產業與相關技術。生活似乎總是跟音樂離不開，也讓我決定碩論做音樂檢索相關的題目，也期許自己將來走往音樂相關產業。
+你好阿，我是賴東昇。2019年甫從政大統研所畢業，並獲頒斐陶斐會員(全班第一畢業)，但當兵後反璞歸真，智技能皆處於local minima。雖然學碩都就讀政大統計系，但比起傳統的統計方法，我更感興趣的卻是資料分析與當紅的ML/DL。雖然上述領域不太算統計人的戰場，但統計系所學依然讓我有一個不錯的切入點，我也了解自己的不足，並期望能在這個領域找到自己的立足點。
+<br><br>
+學科以外，音樂可說是我最感興趣的事物，並連帶牽引我的學職涯方向——包括大學期間擔任搖滾樂社副社長、雙主修數位內容學程，皆是出自於對音樂的喜愛。進入碩班後，碩論亦跟音樂推薦有關，並於畢業前進入KKBOX實習，實際分析音樂相關的資料，可說是難得的經驗，並讓我受益良多。
                     <br><br>
                     
 
@@ -139,10 +145,11 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="expertise-item">
-                    <h3>音樂資料檢索</h3>
+                    <h3>推薦系統</h3>
 
                     <p>
-                        論文的研究方向，我較感興趣的議題有：音樂相似度衡量、播放清單研究、推薦系統、歌詞情緒分析。
+						因為碩士論文緣故，看過一些論文，並以python/pytorch實作過幾種方法，例如：矩陣分解、embedding、甚至是基於深度學習的模型。
+
                     </p>
                 </div>
             </div>
@@ -162,8 +169,8 @@
                 <div class="expertise-item">
                     <h3>機器/深度學習</h3>
                     <p>
-                        可以使用ML/DL方法，並應用到較複雜的問題中。
-                        如CNN、word embedding等方法。
+						可以使用ML/DL方法，並應用到較複雜的問題中。深度學習部份，曾用過CNN、RNN、seq2seq等模型，但這個領域進步速度太快，實在不敢說自己擅長。
+
                     </p>
                 </div>
             </div>
@@ -188,10 +195,10 @@
                 <div class="progress-wrapper">
                     <div class="progress-item">
                         <span class="progress-title">Python</span>
-                        <span class="bd badge badge-secondary">Keras</span>
+                        <span class="bd badge badge-secondary">Pytorch</span>
                         <span class="bd badge badge-secondary">Matplotlib</span>
-						<span class="bd badge badge-secondary">Nltk</span>                   
 						<span class="bd badge badge-secondary">Pyquery</span>                   
+						<span class="bd badge badge-secondary">Bokeh</span>                   
                         <div class="progress" style="height: 7px;">
                             <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                                  aria-valuemax="100" style="width: 80%">
@@ -199,8 +206,7 @@
                             </div>
 						
                         </div>
-                        <div class="progress-content">目前的主力分析工具，內容涵蓋文字分析、網路爬蟲、機器學習、深度學習與資料視覺化等領域，
-                        為了研究較複雜的深度學習模型，最近在學pytorch。
+                        <div class="progress-content">目前的主力分析工具，內容涵蓋文字分析、網路爬蟲、機器學習、深度學習與資料視覺化等領域。
                         </div>
                         <!-- .progress -->
                     </div>
@@ -214,14 +220,13 @@
 						<span class="bd badge badge-secondary">Rmd & shiny</span>
                         <div class="progress" style="height: 7px;">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 90%">
-                                 <span class="progress-percent"> 超精熟</span>
+                                 aria-valuemax="100" style="width: 70%">
+                                 <span class="progress-percent"> 精熟</span>
                             </div>
                         </div>
 	                    <div class="progress-content">
-	                        	雖然現在移情別戀py，但R是我同窗三年的好夥伴。便利的tidyverse 生態鏈可以讓我簡潔快速的完成資料處理、資料探索、資料視覺化等工作。
-	                        	此外，R也是我在統計相關任務如線性模型、統計計算時的語言首選。
-	                    </div>
+                            R是我最早上手的好夥伴。便利的tidyverse生態可以讓我快速的完成資料處理、資料視覺化等工作。碩班時R也是我在統計相關任務如線性模型、統計計算時的語言首選。雖然久未使用，但複習後應能快速上手。	                    
+                        </div>
                     </div>
 
                     <div class="progress-item">
@@ -231,14 +236,11 @@
                         <div class="progress" style="height: 7px;">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                  aria-valuemax="100" style="width: 30%">
-                                 <span class="progress-percent"> 只能騙不會的人</span>
+                                 <span class="progress-percent"> 還算懂一點</span>
                             </div>
                         </div>
 	                    <div class="progress-content">
-	                    	大學雙主修數位內容學程時所學，曾學過html/css/js外，還有相關的框架如bootstrap、jquery、D3.js、node.js等。
-	                    	時代久遠已經差不多忘光了，但最近為了教開始寫網頁的女友，只好在腦中努力打撈。
-	                    	平常拿來寫點小東西(像這個履歷)自娛娛人，或者幫Rmarkdown添油加醋。	                        	
-	                        	
+                                大學網頁程設課程所學，曾學過html/css/js外，還有相關的框架如bootstrap、jquery、D3.js等。目前的主流框架都沒碰過，相關技能堪稱又老又窮。                                                     	                        	
 	                    </div>
                     </div>
 
@@ -249,12 +251,12 @@
 						<span class="bd badge badge-secondary">InDesign</span>                        
                         <div class="progress" style="height: 7px;">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 40%">
-                                 <span class="progress-percent"> 能操作</span>
+                                 aria-valuemax="100" style="width: 60%">
+                                 <span class="progress-percent"> 精熟</span>
                             </div>
                         </div>
 	                    <div class="progress-content">
-							以前妄想轉職前端學了Photoshop與Illustrator，結果淪為破壞市場行情的接案人士，專門幫系辦、社團、學校單位生產低價低品質的海報、視覺設計。因為不想當工具人，所以基本上是個秘密。                        		                     
+                            大學曾妄想轉職前端學了Photoshop與Illustrator，卻淪為破壞市場行情的接案人士，專門生產低品質的海報與視覺設計。但在製作報告、報表時還是頗有助益。                       		                     
 	                    </div>
                     </div>
                 </div>
@@ -278,7 +280,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <a class="portfolio-item" a target="_blank" rel="noopener noreferrer" href="https://github.com/hyades910739/Playlist_Analysis">
+                <a class="portfolio-item" a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1FwpceDg0Xnxc0LZstOxH8rqaGTQdOEVN/view">
                     <div class="portfolio-thumb">
                         <img src="img/playlist.jpg" alt="">
                     </div>
@@ -286,10 +288,10 @@
                     <div class="portfolio-info">
                             <div class="row no-gutters">
                             <div class="col-sm-3">
-                                 <img src="img/github.png" style="max-height:80px; padding-bottom: 10px">   
+                                 <img src="img/drive.png" style="max-height:80px; padding-bottom: 10px">   
                             </div> 
                             <div class="col-md-9">
-                                <h3>Music Embedding & <br> Playlist Analysis</h3>
+                                <h3>Embedding & <br> Recommendation</h3>
                             </div>                                                       
                         </div>
                         
@@ -300,12 +302,9 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6 project-info">
-                <h3>音樂向量與播放清單分析(進行中)</h3>
+                <h3>碩士論文：應用Embedding於音樂播放推薦</h3>
                 <p>
-                    利用word2vec的概念，透過播放清單將音樂「編碼」。
-                    並利用這些音樂向量進行相似性分析、播放清單分析、
-                    甚至是基於音樂播放序列的推薦。
-
+                    透過word embedding與network embedding，我們能從使用者聆聽音樂之紀錄中得到音樂與使用者之「編碼」，除了可用於呈現使用者與音樂之間的關係，亦可用於音樂推薦之任務。
                 </p>
             </div>
         </div>
@@ -336,7 +335,9 @@
                 <p>
                     傳統的歌曲情緒分類問題多利用音頻特徵，
                     然而文字中其實蘊含大量的情緒。
-                    我利用傳統的文字方法如TF-IDF，也實作了神經網路方法如CNN 與LSTM。
+                    我利用基於TF-IDF改進的方法，
+                    也實作了神經網路方法如CNN 與RNN。
+
                 </p>
             </div>
         </div>
@@ -421,14 +422,6 @@ $('[data-spy="scroll"]').each(function () {
 })
 
 $('#myScrollspy').on('activate.bs.scrollspy', function () {
-    
-    //$("#spy").html("<p>hihihihi</p>")
-    //$(".nav li > a").css("color","blue")
-
-    //$(".nav li.active > a").css("color","red")
-    //$("#activeitem").html("目前您正在查看 - " + currentItem);  
-    //$(".nav li.active a").css("border-color","rgba(255, 193, 7,1)")  
-  
     
 })
 
