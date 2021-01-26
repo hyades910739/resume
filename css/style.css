@@ -165,6 +165,7 @@ button:focus,
  * Column Block
  * -------------------*/
 
+
 .columns-block {
     display                : -webkit-flex;
     display                : flex;
@@ -185,7 +186,8 @@ button:focus,
     flex         : 1.5 0 0;
     position     : relative;
     background   : rgba(255, 255, 255, .8);
-    border-right : 1px solid #eaeaea;
+    border-right : 1px solid #eaeaea;    
+    width: 10%;
     }
 
 .right-col-block {
@@ -592,6 +594,16 @@ button:focus,
     top        : 65%;
     }
 
+.job_subtitle {
+    font-size: 18px;
+    color:#3e3947;
+    /* font-weight:900 !important; */
+
+}
+.job_subcontent {
+    padding-left: 40px; 
+    margin-top: -10px
+}
 
 /* new */
 .about-text, .lead, h1 {
@@ -599,7 +611,8 @@ button:focus,
 }
 
 .progress-content, p, .about-text{
-    font-size: 15px;
+    font-size: 18px;
+    line-height:24px;
 } 
 /*
 .project-info {
@@ -711,5 +724,33 @@ li.active::before {
 
 
 #print {
+    font-size: 18px;
+}
+.card  {
+    margin-bottom: 15px;
+    padding: 0px;
+}
+.github_repo {
+    font-size: 16px;
+    border: darkgray 0px solid; 
+    /* background-color:cornsilk; */
+    padding: 7px; 
+}
+.github_icon {
+    font-size: 30px !important; 
+    vertical-align: middle !important; 
+    padding-bottom: 3px;    
+    
+}
+.card .card-body {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.github_a_container {
+    text-align: right;
+}
+.card-title {
+    color: darkcyan;
     font-size: 18px;
 }
