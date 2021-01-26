@@ -19,10 +19,10 @@ Author: themehippo.com
 
 body {
     position: relative
-    font-family : 'Noto Sans TC','Hind', sans-serif;
+    font-family :'Noto Sans TC','Hind', sans-serif;
     font-size   : 15px;
     line-height : 1.8em;
-    color       : #3d3d50;
+    color       :  #0d0d0d;
     font-weight : 300;
     background  : url("../img/pattern-bg.png") fixed;
     }
@@ -753,4 +753,8 @@ li.active::before {
 .card-title {
     color: darkcyan;
     font-size: 18px;
+}
+
+.about-text, .job_subcontent, .job_subtitle, .progress-content, .card-text {
+    color: #0d0d0d;
 }
